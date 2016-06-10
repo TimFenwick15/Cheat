@@ -1,0 +1,17 @@
+alias cheatvi='text="
+Command | Effect
+--------|--------
+w       | Forward one word
+        |
+b       | Back one word
+        |
+$       | End of line
+        |
+^       | Beginning of line
+        |
+%       | Move to opposite matching bracket
+        |
+G       | End of file
+        |
+gg      | Beginning of file"
+echo "$text"'
