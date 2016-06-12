@@ -1,0 +1,15 @@
+alias cheatgit='text="
+Command                      | Effect
+-----------------------------|--------
+git init                     | Add a .git
+                             |
+git remote add origin <url>  | Connect local to remote repo
+                             |
+git add <file>               | Set a file to the added state
+                             |
+git commit -m \"<message>\"    | Set added files to the commited state
+                             |
+git push origin master       | Send commited files from local to remote repo
+                             |
+git pull origin master       | Copy files from remote repo to local"
+echo "$text"'
