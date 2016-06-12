@@ -1,0 +1,8 @@
+# include cheat in .bashrc if it exists
+if [ -d ~/cheat ]; then
+    if [ "$(ls -A ~/cheat)" ]; then
+        for x in ~/cheat/cheat*; do
+            source $x
+        done
+    fi
+fi
